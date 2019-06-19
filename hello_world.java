@@ -7,7 +7,7 @@
 public class HelloWorld {
 
     public static void main(String[] args) {
-        /* Enter your code here. Print output to STDOUT. Your class should be named Solution. */
+        /* This code prints out a line of code and then goes to the next line */
         System.out.println("Hello, World.");
         System.out.println("Hello, Java.");
     }
