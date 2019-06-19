@@ -24,7 +24,7 @@ public class BankAccount
         System.out.println("Welcome to your Bank Account");
 
         // Ask for id
-        System.out.print("What is your bank id? ");
+        System.out.print("What is your bank ID? ");
 		String enteredID = scan.nextLine();
 
        // Ask user for initial deposit
@@ -50,7 +50,7 @@ public class BankAccount
 		do
 		 {
            // ask a user to choose a command
-		   System.out.println("\nPlease enter a command or type ?");
+		   System.out.println("\nPlease enter a command or type ? to display main menu");
 		   input = scan.next();
            command = input.charAt(0);
 
@@ -109,7 +109,7 @@ public class BankAccount
 					       // then use the method equals to check to see if the ids are the same or not!
 
 					       // Ask for id
-						   System.out.print("What is your bank id? ");
+						   System.out.print("What is your bank ID? ");
 						   enteredID = scan.next();
 
 						    // Ask user for initial deposit
@@ -146,13 +146,13 @@ public class BankAccount
    {
     System.out.print("\nCommand Options\n"
                    + "-----------------------------------\n"
-                   + "a: deposit\n"
-                   + "b: withdraw\n"
-                   + "c: display the balance \n"
+                   + "a: Deposit\n"
+                   + "b: Withdraw\n"
+                   + "c: Display the balance \n"
                    + "d: Check the account\n"
-                   + "e: add interest\n"
-                   + "?: display the menu again\n"
-                   + "q: quit this program\n\n");
+                   + "e: Add interest\n"
+                   + "?: Display the menu again\n"
+                   + "q: Quit this program\n\n");
     }
 
 }  // end class
