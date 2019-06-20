@@ -1,5 +1,5 @@
 /************************************************************
- * Author: fmaticSRB
+ * Author: Filip Matic
  * Title: TempConverter.java
  * Description: The program askes what the user wants to convert, 
  * and converts the entered temperature to either C or F
