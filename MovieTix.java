@@ -1,5 +1,5 @@
 /************************************************************
-* Author: fmaticSRB
+* Author: Filip Matic
 * Title: MovieTix.java
 * Description: This program provides a welcome screen to the
 * user for a movie theater. Then it prompts them for how
