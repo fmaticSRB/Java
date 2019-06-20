@@ -1,9 +1,10 @@
 /*********************************************************
- * Author: fmaticSRB 
+ * Author: Filip Matic
+ * Title: wello_world.java 
  * Description: This is a basic "Hello World" Code for Practice Purposes
  *
  *********************************************************/
-public class HelloWorld {
+public class hello_world {
 
     public static void main(String[] args) {
     	
