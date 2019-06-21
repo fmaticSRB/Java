@@ -38,7 +38,7 @@ public class TicketManager
 			case 1: // Displays the seating chart
 			MovieTheater.displaySeats();
 			break;
-
+ 
 			case 2: // Asks the user what tickets they wish to purchase
 			System.out.print("\nNumber of tickets desired (1 - 30): ");
 			int num = scan.nextInt();
