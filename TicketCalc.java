@@ -64,7 +64,6 @@ public class TicketCalc
 
 				for(int k = 0; k < NUMROWS; k++) {
 					prices[k] = Double.parseDouble(temp);
-					System.out.println(prices[k]);
 					temp = br.readLine();
 				}
 			}
@@ -123,13 +122,13 @@ public class TicketCalc
 				totalRevenue += totalCost;
 				return true;
 			}
-
+		else 
 			return false;
 	}
 
 	public void printTickets(int seats, int row, int start) // Prints out a summary of the transaction that the user just had.
 	{
-		totalCost =(prices[row]) * seats;
+		totalCost =(prices[row-1]) * seats;
 		System.out.print("\nNum seats: " + seats);
 		System.out.print("\nThe price for the requested tickets is :" + fmt.format(totalCost));
 		System.out.print("\nPlease input amount paid: ");
@@ -139,7 +138,7 @@ public class TicketCalc
 				System.out.print("\n************************");
 				System.out.print("\n*MovieTheater *");
 				System.out.print("\n*row " + row + "seat " + k);
-				System.out.println("\n*Price: " + fmt.format(prices[row]));
+				System.out.println("\n*Price: " + fmt.format(prices[row-1]));
 			}
 		System.out.print("\nTickets purchased: " + seats);
 		System.out.print("\nPayment: " + paid);
