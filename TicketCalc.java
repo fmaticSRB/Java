@@ -44,6 +44,7 @@ public class TicketCalc
 				{
 					seats[i] = line.toCharArray();
 				}
+				line = br.readLine();
 			}
 		}
 		catch(FileNotFoundException e )
@@ -64,6 +65,7 @@ public class TicketCalc
 				for(int k = 0; k < NUMROWS; k++) {
 					prices[k] = Double.parseDouble(temp);
 					System.out.println(prices[k]);
+					temp = br.readLine();
 				}
 			}
 			catch(FileNotFoundException e )
