@@ -1,3 +1,11 @@
+/************************************************************
+* Author: Filip Matic
+* Title: GameShow.java
+* Description: This program simulates a game show where the user
+* answers multiple choice questions. The program will choose
+* a random question from the question bank, meaning no two
+* games will be the same. 
+ ************************************************************/
 import java.util.*;
 
 public class GameShow
