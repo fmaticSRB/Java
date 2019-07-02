@@ -5,6 +5,7 @@
 * user for a movie theater. Then it prompts them for how
 * many tickets they would like to buy and then displays
 * the information about their purchase.
+*
  ************************************************************/
 
 import java.util.Scanner;
