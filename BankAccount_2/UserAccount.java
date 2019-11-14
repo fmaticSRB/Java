@@ -1,7 +1,7 @@
  /***********************************************************
  * AUTHOR: Filip Matic
  * Title: UserAccount.java
- * SPECIFICATION: This program deals with the exact details
+ * Description: This program deals with the exact details
  * pertaining to the users bank acount. 
  ************************************************************/
 

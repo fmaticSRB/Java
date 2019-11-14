@@ -1,7 +1,7 @@
  /***********************************************************
  * AUTHOR: Filip Matic
  * Title: BankAccount_1.java
- * SPECIFICATION: This program welcomes the user to a bank
+ * Description: This program welcomes the user to a bank
  * and allows the user to perform basic functions on their 
  * account. 
  ************************************************************/

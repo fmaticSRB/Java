@@ -2,7 +2,6 @@
  * Author: Filip Matic
  * Title: hello_world.java 
  * Description: This is a basic "Hello World" Code for Practice Purposes
- *
  *********************************************************/
 public class hello_world {
 
