@@ -18,6 +18,9 @@ Java (TM) SE Runtime Environment (build 12+33)
 
 
 ## Project Description
+* ArrayRotate
+
+   Rotates a given array by a predetermined amount. 
 * BankAccount_1
 
    Welcomes the user to a bank and allows the user to perform basic functions on their account. 
